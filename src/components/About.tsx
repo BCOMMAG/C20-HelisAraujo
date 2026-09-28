@@ -206,7 +206,7 @@ export function About() {
               <button
                 type="button"
                 onClick={handleToggleExpand}
-                className="btn-pill bg-white text-[var(--text-main)] border-2 border-[var(--accent)]/60 hover:bg-[var(--accent)] hover:text-white dark:bg-[var(--bg-card)] dark:text-[var(--text-main)] dark:border-[var(--accent)]/50 dark:hover:bg-[var(--accent)] dark:hover:text-white gap-2 py-3 px-6 text-xs sm:text-sm font-semibold shadow-xs hover-lift transition-all cursor-pointer flex items-center"
+                className="btn-pill bg-white text-[#2B2321] border-2 border-[#C18F84]/60 hover:bg-[#C18F84] hover:text-white dark:bg-[#2B2321] dark:text-[#EBE5DF] dark:border-[#C18F84]/50 dark:hover:bg-[#C18F84] dark:hover:text-white gap-2 py-3 px-6 text-xs sm:text-sm font-semibold shadow-xs hover-lift transition-all cursor-pointer flex items-center"
                 aria-expanded={isExpanded}
               >
                 <span>{isExpanded ? "Ocultar detalhes" : "Conhecer Trajetória & Experiência"}</span>
@@ -221,7 +221,7 @@ export function About() {
                 href={OFFICE_INFO.whatsappUrl}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="btn-pill bg-[var(--accent)] hover:bg-[var(--accent-hover)] text-white border-2 border-[var(--bg-primary)]/40 gap-2 py-3 px-6 text-xs sm:text-sm shadow-md hover-lift transition-all flex items-center cursor-pointer font-semibold"
+                className="btn-pill bg-[#C18F84] hover:bg-[#A8746A] text-white border-2 border-[#FAF6F0]/40 gap-2 py-3 px-6 text-xs sm:text-sm shadow-md hover-lift transition-all flex items-center cursor-pointer font-semibold"
               >
                 <WhatsAppIcon className="w-4 h-4 fill-white" />
                 <span>Falar com Advogada</span>
@@ -272,7 +272,7 @@ export function About() {
           {/* Coluna da Foto Oficial da Dra. Helis Kawamura Araújo */}
           <div className="lg:col-span-5 order-1 lg:order-2 w-full flex justify-center lg:justify-end">
             <div ref={photoCardRef} className="w-full max-w-[360px] sm:max-w-[400px] will-change-transform">
-              <div className="relative w-full aspect-[4/5] sm:aspect-[3/4] rounded-3xl overflow-hidden border-2 border-[var(--accent)]/50 dark:border-[var(--accent)]/40 shadow-[0_12px_35px_rgba(15,30,54,0.35)] hover-lift group bg-[#0B121C]">
+              <div className="relative w-full aspect-[4/5] sm:aspect-[3/4] rounded-3xl overflow-hidden border-2 border-[#C18F84]/50 dark:border-[#C18F84]/40 shadow-[0_12px_35px_rgba(43,35,33,0.35)] hover-lift group bg-[#211A19]">
                 {/* Feixe de luz suave */}
                 <div className="absolute inset-0 -translate-x-full group-hover:translate-x-full transition-transform duration-1000 bg-gradient-to-r from-transparent via-white/20 to-transparent z-20 pointer-events-none" />
                 <Image
@@ -283,17 +283,17 @@ export function About() {
                   className="object-cover object-top transition-transform duration-700 group-hover:scale-105"
                   sizes="(max-width: 768px) 90vw, 420px"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-[#0B121C]/95 via-[#0F1E36]/35 to-transparent pointer-events-none" />
+                <div className="absolute inset-0 bg-gradient-to-t from-[#211A19]/95 via-[#2B2321]/35 to-transparent pointer-events-none" />
 
                 {/* Badge Inferior com Nome e Titularidade */}
                 <div className="absolute bottom-5 left-5 right-5 text-white z-10 pointer-events-none">
-                  <span className="text-[0.6875rem] uppercase tracking-widest text-[#F8F9FA] font-heading font-bold block mb-1">
+                  <span className="text-[0.6875rem] uppercase tracking-widest text-[#FAF6F0] font-heading font-bold block mb-1">
                     Advogada Titular
                   </span>
                   <p className="font-heading text-xl sm:text-2xl font-bold leading-tight text-white drop-shadow-sm">
                     {LAWYER_PROFILE.name}
                   </p>
-                  <p className="text-xs text-[#F8F9FA] font-body mt-1 leading-relaxed">
+                  <p className="text-xs text-[#FAF6F0] font-body mt-1 leading-relaxed">
                     Direito das Famílias | Advogada dos Pais | Alta Complexidade
                   </p>
                 </div>

@@ -100,10 +100,10 @@ export function Hero() {
           />
         </div>
 
-        {/* Gradientes mesclando Dark Navy (#0B121C) e Azul Noturno (#0F1E36) */}
-        <div className="absolute inset-0 bg-gradient-to-r from-[#0B121C]/95 via-[#0F1E36]/85 to-[#0B121C]/50 lg:from-[#0B121C]/92 lg:via-[#0F1E36]/65 lg:via-55% lg:to-transparent" />
-        <div className="absolute inset-0 bg-gradient-to-t from-[#0B121C]/95 via-transparent to-[#0F1E36]/60 lg:from-[#0B121C]/60 lg:via-transparent lg:to-transparent" />
-        <div className="absolute -top-32 -right-32 w-96 h-96 bg-[#A86E61]/20 rounded-full blur-3xl lg:hidden" />
+        {/* Gradientes mesclando Café Escuro (#211A19) e Moca Profundo (#2B2321) */}
+        <div className="absolute inset-0 bg-gradient-to-r from-[#211A19]/95 via-[#2B2321]/85 to-[#211A19]/50 lg:from-[#211A19]/92 lg:via-[#2B2321]/65 lg:via-55% lg:to-transparent" />
+        <div className="absolute inset-0 bg-gradient-to-t from-[#211A19]/95 via-transparent to-[#2B2321]/60 lg:from-[#211A19]/60 lg:via-transparent lg:to-transparent" />
+        <div className="absolute -top-32 -right-32 w-96 h-96 bg-[#C18F84]/20 rounded-full blur-3xl lg:hidden" />
       </div>
 
       <div
@@ -112,16 +112,16 @@ export function Hero() {
       >
         {/* Topo do Hero: Badge + Título Principal */}
         <div className="pt-1 sm:pt-2 max-w-3xl animate-fade-in-down">
-          {/* Badge de Autoridade com tom Bronze Nobre e Dark Navy */}
-          <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full border border-[#A86E61]/40 bg-[#0B121C]/80 backdrop-blur-md text-xs sm:text-sm font-heading tracking-wide text-[#F1F5F9] mb-3 sm:mb-4 shadow-sm">
-            <ShieldCheck className="w-4 h-4 text-[#A86E61]" />
+          {/* Badge de Autoridade com tom Rosé Cobre e Moca */}
+          <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full border border-[#C18F84]/40 bg-[#211A19]/80 backdrop-blur-md text-xs sm:text-sm font-heading tracking-wide text-[#EBE5DF] mb-3 sm:mb-4 shadow-sm">
+            <ShieldCheck className="w-4 h-4 text-[#C18F84]" />
             <span>Helis Kawamura Araújo | Advocacia • Desde 2012</span>
           </div>
 
-          {/* Headline Principal SEM SUBLINHADO */}
+          {/* Headline Principal SEM SUBRINHADO */}
           <h1 className="font-heading text-2xl sm:text-3xl md:text-4xl lg:text-[2.85rem] xl:text-[3.25rem] leading-[1.16] sm:leading-[1.14] tracking-tight text-white font-bold drop-shadow-[0_2px_14px_rgba(0,0,0,0.85)]">
             Defesa estratégica dos pais e proteção integral dos filhos em causas de{" "}
-            <span className="text-[#B87B6E] font-extrabold">
+            <span className="text-[#C18F84] font-extrabold">
               alta complexidade
             </span>.
           </h1>
@@ -133,13 +133,13 @@ export function Hero() {
             Atuação especializada em Direito das Famílias desde 2012. Prevenção e combate à alienação parental, falsas acusações, medidas protetivas, fixação de pensão e guarda equilibrada no melhor interesse do infante.
           </p>
 
-          {/* CTAs mesclando Bronze Nobre (#A86E61) e Base Escura */}
+          {/* CTAs mesclando Rosé Gold Cobre (#C18F84) e Base Escura */}
           <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-2.5 sm:gap-4 pt-1">
             <a
               href={OFFICE_INFO.whatsappUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="btn-pill bg-[#A86E61] hover:bg-[#8E574B] hover:scale-[1.02] text-white border-2 border-[#F8F9FA]/40 gap-2.5 py-2.5 sm:py-3.5 px-5 sm:px-7 text-xs sm:text-sm font-semibold tracking-normal shadow-[0_6px_24px_rgba(168,110,97,0.45)] group transition-all text-center justify-center flex items-center cursor-pointer"
+              className="btn-pill bg-[#C18F84] hover:bg-[#A8746A] hover:scale-[1.02] text-white border-2 border-[#FAF6F0]/40 gap-2.5 py-2.5 sm:py-3.5 px-5 sm:px-7 text-xs sm:text-sm font-semibold tracking-normal shadow-[0_6px_24px_rgba(193,143,132,0.45)] group transition-all text-center justify-center flex items-center cursor-pointer"
             >
               <WhatsAppIcon className="w-4 h-4 fill-white group-hover:scale-110 transition-transform" />
               <span>Falar com Advogada</span>
@@ -147,32 +147,32 @@ export function Hero() {
 
             <Link
               href="#educativo"
-              className="btn-pill bg-[#0B121C]/80 backdrop-blur-md text-[#F1F5F9] border border-[#A86E61]/40 hover:bg-[#A86E61] hover:text-white hover:border-[#F8F9FA] hover:scale-[1.02] shadow-md gap-2 py-2.5 sm:py-3.5 px-5 sm:px-6 text-xs sm:text-sm font-semibold tracking-normal group transition-all text-center justify-center flex items-center cursor-pointer"
+              className="btn-pill bg-[#211A19]/80 backdrop-blur-md text-[#EBE5DF] border border-[#C18F84]/40 hover:bg-[#C18F84] hover:text-white hover:border-[#FAF6F0] hover:scale-[1.02] shadow-md gap-2 py-2.5 sm:py-3.5 px-5 sm:px-6 text-xs sm:text-sm font-semibold tracking-normal group transition-all text-center justify-center flex items-center cursor-pointer"
             >
               <span className="font-semibold">Conheça seus Direitos</span>
-              <ChevronRight className="w-4 h-4 text-[#A86E61] group-hover:translate-x-1 group-hover:text-white transition-transform" />
+              <ChevronRight className="w-4 h-4 text-[#C18F84] group-hover:translate-x-1 group-hover:text-white transition-transform" />
             </Link>
           </div>
 
           {/* Barra de Atributos de Prestígio */}
           <div className="hidden lg:flex items-center justify-between py-2.5 xl:py-3 border-t border-white/20 mt-4 xl:mt-6 text-white/90 max-w-2xl">
             <div className="flex items-center gap-2.5">
-              <span className="bullet-indicator text-[#A86E61]" />
+              <span className="bullet-indicator text-[#C18F84]" />
               <span className="font-heading uppercase text-xs tracking-widest text-white/90 font-bold">
                 Curitiba / PR • Sede Física & Online
               </span>
             </div>
             <div className="flex items-center gap-4 text-xs font-heading text-white/80">
               <span className="flex items-center gap-1.5">
-                <Heart className="w-3.5 h-3.5 text-[#A86E61]" />
+                <Heart className="w-3.5 h-3.5 text-[#C18F84]" />
                 Advogada dos Pais
               </span>
               <span className="flex items-center gap-1.5">
-                <Award className="w-3.5 h-3.5 text-[#A86E61]" />
+                <Award className="w-3.5 h-3.5 text-[#C18F84]" />
                 Alta Complexidade
               </span>
               <span className="flex items-center gap-1.5">
-                <ShieldCheck className="w-3.5 h-3.5 text-[#A86E61]" />
+                <ShieldCheck className="w-3.5 h-3.5 text-[#C18F84]" />
                 Advocacia desde 2012
               </span>
             </div>

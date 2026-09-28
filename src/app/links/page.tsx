@@ -98,18 +98,18 @@ export default function LinksPage() {
   ];
 
   return (
-    <main className="min-h-[100dvh] lg:h-screen lg:max-h-screen lg:overflow-hidden w-screen max-w-full bg-[#F8F9FA] text-[#0F172A]">
+    <main className="min-h-[100dvh] lg:h-screen lg:max-h-screen lg:overflow-hidden w-screen max-w-full bg-[#FAF6F0] text-[#2B2321]">
       {/* ===================== VERSÃO DESKTOP (Split Screen 50/50 - Sem Scroll) ===================== */}
       <div className="hidden lg:grid lg:grid-cols-2 h-full w-full overflow-hidden">
         
         {/* LADO ESQUERDO: Fundo Escuro com Logo DOBRADA e Identidade Visual */}
-        <div className="relative bg-[#0B121C] text-white flex flex-col justify-between p-8 xl:p-12 h-full overflow-hidden border-r border-[#A86E61]/25">
+        <div className="relative bg-[#211A19] text-white flex flex-col justify-between p-8 xl:p-12 h-full overflow-hidden border-r border-[#C18F84]/20">
           <div className="absolute inset-0 pointer-events-none opacity-20">
             <svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
               <defs>
                 <pattern id="grid-links-desktop" width="50" height="50" patternUnits="userSpaceOnUse">
-                  <path d="M 50 0 L 0 0 0 50" fill="none" stroke="#A86E61" strokeWidth="0.75" />
-                  <circle cx="0" cy="0" r="1.5" fill="#F8F9FA" />
+                  <path d="M 50 0 L 0 0 0 50" fill="none" stroke="#C18F84" strokeWidth="0.75" />
+                  <circle cx="0" cy="0" r="1.5" fill="#FAF6F0" />
                 </pattern>
               </defs>
               <rect width="100%" height="100%" fill="url(#grid-links-desktop)" />
@@ -117,11 +117,11 @@ export default function LinksPage() {
           </div>
 
           <div className="relative z-10 flex items-center justify-between">
-            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full border border-[#A86E61]/40 bg-[#0F1E36]/80 backdrop-blur-md text-xs font-heading tracking-wider text-[#F8F9FA]">
-              <ShieldCheck className="w-3.5 h-3.5 text-[#A86E61]" />
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full border border-[#C18F84]/40 bg-[#2B2321]/80 backdrop-blur-md text-xs font-heading tracking-wider text-[#FAF6F0]">
+              <ShieldCheck className="w-3.5 h-3.5 text-[#C18F84]" />
               <span>Advocacia desde 2012</span>
             </div>
-            <span className="text-[0.6875rem] font-heading uppercase tracking-widest text-[#A86E61]">
+            <span className="text-[0.6875rem] font-heading uppercase tracking-widest text-[#C18F84]">
               Curitiba/PR • Todo o Brasil
             </span>
           </div>
@@ -145,7 +145,7 @@ export default function LinksPage() {
               </div>
             </Link>
 
-            <div className="h-0.5 w-16 bg-[#A86E61]/50 mb-4" />
+            <div className="h-0.5 w-16 bg-[#C18F84]/50 mb-4" />
 
             <h1 className="font-heading text-xl xl:text-2xl font-semibold max-w-md leading-snug text-white">
               {OFFICE_INFO.tagline}
@@ -158,12 +158,12 @@ export default function LinksPage() {
 
           <div className="relative z-10 flex items-center justify-between text-xs text-gray-400 font-body pt-3 border-t border-white/10">
             <p>{OFFICE_INFO.addressShort}</p>
-            <p className="text-[0.6875rem] text-[#A86E61]">Provimento 205/2021 CFOAB</p>
+            <p className="text-[0.6875rem] text-[#C18F84]">Provimento 205/2021 CFOAB</p>
           </div>
         </div>
 
         {/* LADO DIREITO: Fundo Claro com Logo + Canais de Atendimento */}
-        <div className="bg-[#F8F9FA] flex flex-col justify-between p-6 xl:p-8 h-full overflow-y-auto">
+        <div className="bg-[#FAF6F0] flex flex-col justify-between p-6 xl:p-8 h-full overflow-y-auto">
           <div className="max-w-md mx-auto w-full flex flex-col justify-center my-auto space-y-3 xl:space-y-3.5 py-4">
             
             {/* Header com Logo no Lado Direito com dimensões explícitas */}
@@ -184,13 +184,13 @@ export default function LinksPage() {
                   />
                 </div>
               </Link>
-              <span className="font-heading uppercase text-[0.6875rem] tracking-widest text-[#A86E61] block mb-0.5 font-bold">
+              <span className="font-heading uppercase text-[0.6875rem] tracking-widest text-[#C18F84] block mb-0.5 font-bold">
                 Acesso Imediato
               </span>
-              <h2 className="font-heading text-2xl xl:text-3xl font-bold text-[#0F172A]">
+              <h2 className="font-heading text-2xl xl:text-3xl font-bold text-[#2B2321]">
                 Canais de Atendimento
               </h2>
-              <p className="font-body text-xs text-[#525F76] mt-0.5">
+              <p className="font-body text-xs text-[#7A6F6C] mt-0.5">
                 Escolha o canal desejado para se comunicar diretamente com a advogada.
               </p>
             </div>
@@ -202,8 +202,8 @@ export default function LinksPage() {
                 const isInternal = item.href.startsWith("/");
                 const buttonClasses = `w-full p-3 xl:p-3.5 rounded-xl flex items-center justify-between group transition-all duration-300 border ${
                   item.highlight
-                    ? "bg-[#A86E61] text-white border-2 border-[#F8F9FA]/50 hover:bg-[#8E574B] shadow-sm hover:shadow-md"
-                    : "bg-[#FFFFFF] text-[#0F172A] border-[#A86E61]/30 hover:border-[#A86E61] shadow-2xs hover:shadow-xs"
+                    ? "bg-[#C18F84] text-white border-2 border-[#FAF6F0]/50 hover:bg-[#A8746A] shadow-sm hover:shadow-md"
+                    : "bg-[#FFFFFF] text-[#2B2321] border-[#C18F84]/30 hover:border-[#C18F84] shadow-2xs hover:shadow-xs"
                 }`;
 
                 const content = (
@@ -211,7 +211,7 @@ export default function LinksPage() {
                     <div className="flex items-center gap-3">
                       <div
                         className={`w-8 h-8 rounded-lg flex items-center justify-center flex-shrink-0 ${
-                          item.highlight ? "bg-white/20 text-white" : "bg-[#EEF2F6] text-[#A86E61]"
+                          item.highlight ? "bg-white/20 text-white" : "bg-[#F4EFEA] text-[#C18F84]"
                         }`}
                       >
                         <Icon className="w-4 h-4" />
@@ -222,7 +222,7 @@ export default function LinksPage() {
                         </span>
                         <span
                           className={`font-body text-[0.6875rem] block ${
-                            item.highlight ? "text-gray-100" : "text-[#525F76]"
+                            item.highlight ? "text-gray-100" : "text-[#7A6F6C]"
                           }`}
                         >
                           {item.subtitle}
@@ -231,7 +231,7 @@ export default function LinksPage() {
                     </div>
                     <ArrowUpRight
                       className={`w-4 h-4 flex-shrink-0 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5 ${
-                        item.highlight ? "text-white" : "text-[#525F76] group-hover:text-[#A86E61]"
+                        item.highlight ? "text-white" : "text-[#7A6F6C] group-hover:text-[#C18F84]"
                       }`}
                     />
                   </>
@@ -256,16 +256,16 @@ export default function LinksPage() {
             </div>
 
             {/* Caixa de Especialidades */}
-            <div className="p-3.5 rounded-xl border border-[#A86E61]/30 bg-white">
-              <div className="flex items-center gap-1.5 text-[0.6875rem] uppercase tracking-wider font-heading text-[#0F172A] font-bold mb-1.5">
-                <Heart className="w-3.5 h-3.5 text-[#A86E61]" />
+            <div className="p-3.5 rounded-xl border border-[#C18F84]/30 bg-white">
+              <div className="flex items-center gap-1.5 text-[0.6875rem] uppercase tracking-wider font-heading text-[#2B2321] font-bold mb-1.5">
+                <Heart className="w-3.5 h-3.5 text-[#C18F84]" />
                 <span>Especialidades Jurídicas</span>
               </div>
               <div className="flex flex-wrap gap-1.5">
                 {specialties.map((spec, sIdx) => (
                   <span
                     key={sIdx}
-                    className="px-2 py-0.5 rounded-md text-[0.6875rem] font-body bg-[#EEF2F6] text-[#0F172A] border border-[#A86E61]/40 font-medium"
+                    className="px-2 py-0.5 rounded-md text-[0.6875rem] font-body bg-[#F4EFEA] text-[#2B2321] border border-[#C18F84]/40 font-medium"
                   >
                     {spec}
                   </span>
@@ -275,26 +275,26 @@ export default function LinksPage() {
 
           </div>
 
-          <div className="text-center text-[0.6875rem] font-body text-[#525F76] pt-2 border-t border-[var(--border-subtle)]/30">
+          <div className="text-center text-[0.6875rem] font-body text-[#7A6F6C] pt-2 border-t border-[var(--border-subtle)]/30">
             {OFFICE_INFO.addressShort} • © {new Date().getFullYear()} {OFFICE_INFO.name}
           </div>
         </div>
       </div>
 
       {/* ===================== VERSÃO MOBILE (100% Fit Sem Scroll + Logo Dobrada Centralizada) ===================== */}
-      <div className="lg:hidden relative flex flex-col justify-between h-[100dvh] max-h-[100dvh] w-full px-4 py-3 sm:py-4 overflow-hidden bg-gradient-to-b from-[#FFFFFF] via-[#F8F9FA] to-[#EEF2F6]">
-        {/* Linhas Geométricas em Bronze Nobre e Azul Noturno de Fundo */}
+      <div className="lg:hidden relative flex flex-col justify-between h-[100dvh] max-h-[100dvh] w-full px-4 py-3 sm:py-4 overflow-hidden bg-gradient-to-b from-[#FFFFFF] via-[#FAF6F0] to-[#F4EFEA]">
+        {/* Linhas Geométricas em Rosé Cobre e Taupe de Fundo */}
         <div className="absolute inset-0 pointer-events-none overflow-hidden z-0">
           <svg className="w-full h-full" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
             <defs>
               <linearGradient id="roseGeomGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
-                <stop offset="0%" stopColor="#A86E61" stopOpacity="0.4" />
-                <stop offset="50%" stopColor="#0F1E36" stopOpacity="0.15" />
-                <stop offset="100%" stopColor="#F8F9FA" stopOpacity="0.1" />
+                <stop offset="0%" stopColor="#C18F84" stopOpacity="0.4" />
+                <stop offset="50%" stopColor="#2B2321" stopOpacity="0.15" />
+                <stop offset="100%" stopColor="#FAF6F0" stopOpacity="0.1" />
               </linearGradient>
               <linearGradient id="roseGeomGrad2" x1="100%" y1="0%" x2="0%" y2="100%">
-                <stop offset="0%" stopColor="#525F76" stopOpacity="0.25" />
-                <stop offset="100%" stopColor="#A86E61" stopOpacity="0.15" />
+                <stop offset="0%" stopColor="#7A6F6C" stopOpacity="0.25" />
+                <stop offset="100%" stopColor="#C18F84" stopOpacity="0.15" />
               </linearGradient>
             </defs>
 
@@ -305,9 +305,9 @@ export default function LinksPage() {
             <line x1="-15%" y1="92%" x2="115%" y2="72%" stroke="url(#roseGeomGrad2)" strokeWidth="0.75" />
 
             {/* Círculos Geométricos Concêntricos inspirados na logo */}
-            <circle cx="88%" cy="16%" r="80" fill="none" stroke="#A86E61" strokeWidth="1" strokeOpacity="0.3" />
-            <circle cx="88%" cy="16%" r="130" fill="none" stroke="#A86E61" strokeWidth="0.75" strokeOpacity="0.15" strokeDasharray="4 4" />
-            <circle cx="12%" cy="84%" r="90" fill="none" stroke="#A86E61" strokeWidth="1" strokeOpacity="0.3" />
+            <circle cx="88%" cy="16%" r="80" fill="none" stroke="#C18F84" strokeWidth="1" strokeOpacity="0.3" />
+            <circle cx="88%" cy="16%" r="130" fill="none" stroke="#C18F84" strokeWidth="0.75" strokeOpacity="0.15" strokeDasharray="4 4" />
+            <circle cx="12%" cy="84%" r="90" fill="none" stroke="#C18F84" strokeWidth="1" strokeOpacity="0.3" />
           </svg>
         </div>
 
@@ -335,7 +335,7 @@ export default function LinksPage() {
             {specialties.slice(0, 4).map((spec, i) => (
               <span
                 key={i}
-                className="text-[0.625rem] px-2 py-0.5 rounded-full bg-[#EEF2F6] text-[#0F172A] font-body border border-[#A86E61]/40 font-semibold shadow-2xs"
+                className="text-[0.625rem] px-2 py-0.5 rounded-full bg-[#F4EFEA] text-[#2B2321] font-body border border-[#C18F84]/40 font-semibold shadow-2xs"
               >
                 {spec}
               </span>
@@ -355,14 +355,14 @@ export default function LinksPage() {
                 rel={item.href.startsWith("http") ? "noopener noreferrer" : undefined}
                 className={`group flex items-center justify-between px-3.5 py-2 rounded-xl sm:rounded-2xl border transition-all duration-200 active:scale-[0.98] ${
                   item.highlight
-                    ? "bg-[#A86E61] text-white border-2 border-white/50 shadow-[0_4px_14px_rgba(168,110,97,0.35)]"
-                    : "bg-white/95 backdrop-blur-xs hover:bg-white border-[#A86E61]/30 text-[#0F172A] shadow-2xs"
+                    ? "bg-[#C18F84] text-white border-2 border-[#FAF6F0]/50 shadow-[0_4px_14px_rgba(193,143,132,0.35)]"
+                    : "bg-white/95 backdrop-blur-xs hover:bg-white border-[#C18F84]/30 text-[#2B2321] shadow-2xs"
                 }`}
               >
                 <div className="flex items-center gap-3 min-w-0">
                   <div
                     className={`w-8 h-8 rounded-xl flex items-center justify-center flex-shrink-0 ${
-                      item.highlight ? "bg-white/20 text-white" : "bg-[#EEF2F6] border border-[#A86E61]/30 text-[#A86E61]"
+                      item.highlight ? "bg-white/20 text-white" : "bg-[#F4EFEA] border border-[#C18F84]/30 text-[#C18F84]"
                     }`}
                   >
                     <Icon className="w-4 h-4" />
@@ -371,7 +371,7 @@ export default function LinksPage() {
                     <h2 className="font-heading font-bold text-xs sm:text-sm leading-tight truncate">{item.title}</h2>
                     <p
                       className={`text-[0.6875rem] font-body truncate mt-0.5 ${
-                        item.highlight ? "text-gray-100" : "text-[#525F76]"
+                        item.highlight ? "text-gray-100" : "text-[#7A6F6C]"
                       }`}
                     >
                       {item.subtitle}
@@ -385,7 +385,7 @@ export default function LinksPage() {
         </div>
 
         {/* Rodapé Mobile Compacto */}
-        <div className="relative z-10 text-center text-[0.625rem] text-[#525F76] font-body pt-1 pb-1">
+        <div className="relative z-10 text-center text-[0.625rem] text-[#7A6F6C] font-body pt-1 pb-1">
           <p>{OFFICE_INFO.addressShort} • © {new Date().getFullYear()} {OFFICE_INFO.name}</p>
         </div>
       </div>

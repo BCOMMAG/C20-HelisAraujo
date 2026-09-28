@@ -144,7 +144,7 @@ export function HowWeWork() {
           {/* Linha animada de progresso */}
           <div
             ref={progressBarRef}
-            className="hidden lg:block absolute top-[52px] left-8 right-8 h-[2px] bg-gradient-to-r from-[#0F1E36] via-[#A86E61] to-[#F8F9FA] dark:from-[#0B121C] dark:via-[#B87B6E] dark:to-[#F1F5F9] will-change-transform pointer-events-none z-10"
+            className="hidden lg:block absolute top-[52px] left-8 right-8 h-[2px] bg-gradient-to-r from-[#211A19] via-[#C18F84] to-[#FAF6F0] dark:from-[#211A19] dark:via-[#C18F84] dark:to-[#EBE5DF] will-change-transform pointer-events-none z-10"
           />
 
           {/* Cards dos 4 Passos */}
@@ -201,7 +201,7 @@ export function HowWeWork() {
             href={OFFICE_INFO.whatsappUrl}
             target="_blank"
             rel="noopener noreferrer"
-            className="btn-pill bg-[#0F1E36] text-[#F8F9FA] hover:bg-[#A86E61] hover:text-white dark:bg-[#B87B6E] dark:hover:bg-[#C98D80] dark:text-white border-2 border-[#A86E61]/50 gap-2 text-xs sm:text-sm font-semibold shadow-md hover-lift transition-all inline-flex items-center cursor-pointer"
+            className="btn-pill bg-[#2B2321] text-[#FAF6F0] hover:bg-[#C18F84] hover:text-white dark:bg-[#C18F84] dark:hover:bg-[#A8746A] dark:text-white border-2 border-[#C18F84]/50 gap-2 text-xs sm:text-sm font-semibold shadow-md hover-lift transition-all inline-flex items-center cursor-pointer"
           >
             <WhatsAppIcon className="w-4 h-4 fill-white" />
             <span>Falar com Advogada</span>

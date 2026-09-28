@@ -4,67 +4,51 @@
 @custom-variant dark (&:where(.dark, .dark *));
 
 :root {
-  /* Regra 60-30-10: Modo Claro - Opção 1: Azul Noturno & Bronze Nobre */
-  --bg-primary: #F8F9FA; /* 60% Off-White Executivo Límpido */
+  /* Regra 60-30-10: Modo Claro */
+  --bg-primary: #FAF6F0; /* 60% Areia Suave */
   --bg-card: #FFFFFF;
-  --bg-secondary: #EEF2F6; /* Suporte sutil corporativo */
-  --text-main: #0F172A; /* 30% Azul-ardósia escuro solene para títulos e destaques */
-  --text-muted: #525F76; /* Cinza ardósia corporativo para parágrafos e leitura */
+  --bg-secondary: #F4EFEA; /* Suporte suave editorial */
+  --text-main: #2B2321; /* 30% Moca Profundo para títulos e textos de destaque */
+  --text-muted: #7A6F6C; /* Taupe / Cinza Quente para parágrafos e leitura */
   
   /* Cores de Identidade da Marca */
-  --brand-navy: #0F1E36; /* Azul Noturno Soberano */
-  --brand-bronze: #A86E61; /* 10% Ação / Bronze Nobre Soberano */
-  --brand-bronze-hover: #8E574B;
-  --brand-bronze-light: #E8DDD9;
-  --brand-slate: #525F76;
-  --brand-ice: #F8F9FA;
-
-  /* Aliases para compatibilidade */
-  --brand-mocha: #0F1E36;
-  --brand-rose: #A86E61;
-  --brand-rose-hover: #8E574B;
-  --brand-rose-light: #E8DDD9;
-  --brand-taupe: #525F76;
-  --brand-sand: #F8F9FA;
+  --brand-mocha: #2B2321;
+  --brand-rose: #C18F84; /* 10% Ação / Rosé Gold Cobre */
+  --brand-rose-hover: #AB7A70;
+  --brand-rose-light: #EBD8D3; /* Rosé Suave */
+  --brand-taupe: #7A6F6C;
+  --brand-sand: #FAF6F0;
 
   /* Cores de Ação / CTAs */
-  --accent: #A86E61;
-  --accent-hover: #8E574B;
-  --accent-light: #E8DDD9;
-  --accent-dark: #0F1E36;
-  --border-subtle: rgba(15, 30, 54, 0.10);
+  --accent: #C18F84;
+  --accent-hover: #AB7A70;
+  --accent-light: #EBD8D3;
+  --accent-dark: #2B2321;
+  --border-subtle: rgba(43, 35, 33, 0.12);
 }
 
 html.dark {
-  /* Regra 60-30-10: Modo Escuro - Opção 1: Azul Noturno & Bronze Nobre */
-  --bg-primary: #0B121C; /* 60% Dark Navy Profundo */
-  --bg-card: #0F1E36; /* Azul Marinho Noturno Solene */
-  --bg-secondary: #070C13;
-  --text-main: #F1F5F9; /* 30% Gelo Límpido para títulos */
-  --text-muted: #94A3B8; /* Ardósia claro para descrições */
+  /* Regra 60-30-10: Modo Escuro */
+  --bg-primary: #211A19; /* 60% Café Escuro / Grafite Quente */
+  --bg-card: #2B2321;
+  --bg-secondary: #1D1716;
+  --text-main: #EBE5DF; /* 30% Pashmina Claro para títulos */
+  --text-muted: #A39693; /* Taupe suave para descrições */
   
   /* Cores de Identidade da Marca */
-  --brand-navy: #0F1E36;
-  --brand-bronze: #B87B6E; /* Bronze nobre iluminado para contraste escuro */
-  --brand-bronze-hover: #C98D80;
-  --brand-bronze-light: #1C2738;
-  --brand-slate: #94A3B8;
-  --brand-ice: #0B121C;
-
-  /* Aliases para compatibilidade */
-  --brand-mocha: #0F1E36;
-  --brand-rose: #B87B6E;
-  --brand-rose-hover: #C98D80;
-  --brand-rose-light: #1C2738;
-  --brand-taupe: #94A3B8;
-  --brand-sand: #0B121C;
+  --brand-mocha: #2B2321;
+  --brand-rose: #C18F84; /* 10% Ação / Rosé Gold Cobre */
+  --brand-rose-hover: #D4A297;
+  --brand-rose-light: #3D2D2A;
+  --brand-taupe: #7A6F6C;
+  --brand-sand: #FAF6F0;
 
   /* Cores de Ação / CTAs */
-  --accent: #B87B6E;
-  --accent-hover: #C98D80;
-  --accent-light: #1C2738;
-  --accent-dark: #0B121C;
-  --border-subtle: rgba(241, 245, 249, 0.12);
+  --accent: #C18F84;
+  --accent-hover: #D4A297;
+  --accent-light: #3D2D2A;
+  --accent-dark: #211A19;
+  --border-subtle: rgba(235, 229, 223, 0.14);
 }
 
 html {

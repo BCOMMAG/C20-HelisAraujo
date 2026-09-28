@@ -125,7 +125,7 @@ export function ContactSection() {
               
               {/* Card WhatsApp & Telefone */}
               <div className="contact-info-card p-5 rounded-2xl bg-[var(--bg-secondary)]/70 border border-[var(--border-subtle)]/40 flex items-start gap-4 will-change-transform shadow-2xs hover:border-[var(--accent)] transition-colors">
-                <div className="w-10 h-10 rounded-xl bg-[var(--accent)] text-white flex items-center justify-center flex-shrink-0 shadow-xs">
+                <div className="w-10 h-10 rounded-xl bg-[#C18F84] text-white flex items-center justify-center flex-shrink-0 shadow-xs">
                   <Phone className="w-5 h-5" />
                 </div>
                 <div>
@@ -166,7 +166,7 @@ export function ContactSection() {
                       href={OFFICE_INFO.mapsDirectionsUrl}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="inline-flex items-center gap-1.5 text-xs font-heading font-bold text-[var(--accent)] hover:text-[var(--accent-hover)] transition-colors group/route"
+                      className="inline-flex items-center gap-1.5 text-xs font-heading font-bold text-[var(--accent)] hover:text-[#A8746A] transition-colors group/route"
                     >
                       <Navigation className="w-3.5 h-3.5 transition-transform group-hover/route:rotate-12 text-[var(--accent)]" />
                       <span>Traçar rota no GPS</span>
@@ -220,7 +220,7 @@ export function ContactSection() {
                 href={OFFICE_INFO.whatsappUrl}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-full btn-pill bg-[var(--accent)] hover:bg-[var(--accent-hover)] text-white py-3.5 gap-2 shadow-md text-sm sm:text-base cursor-pointer hover-lift transition-all inline-flex items-center justify-center font-semibold"
+                className="w-full btn-pill bg-[#C18F84] hover:bg-[#A8746A] text-white py-3.5 gap-2 shadow-md text-sm sm:text-base cursor-pointer hover-lift transition-all inline-flex items-center justify-center font-semibold"
               >
                 <WhatsAppIcon className="w-4 h-4 fill-white" />
                 <span>Falar com Advogada no WhatsApp</span>
@@ -244,7 +244,7 @@ export function ContactSection() {
               />
 
               {/* Badge de Identificação no Topo do Mapa */}
-              <div className="absolute top-4 left-4 p-3 rounded-xl bg-white/95 dark:bg-[#0B121C]/95 backdrop-blur-md border border-[var(--border-subtle)]/30 text-xs shadow-md">
+              <div className="absolute top-4 left-4 p-3 rounded-xl bg-white/95 dark:bg-[#211A19]/95 backdrop-blur-md border border-[var(--border-subtle)]/30 text-xs shadow-md">
                 <span className="font-heading font-bold text-[var(--text-main)] block">
                   {OFFICE_INFO.name}
                 </span>
@@ -254,7 +254,7 @@ export function ContactSection() {
               </div>
 
               {/* Botão de Rota Traçada Flutuante na Base do Mapa */}
-              <div className="absolute bottom-4 inset-x-4 sm:left-auto sm:right-4 p-2 sm:p-2.5 rounded-2xl bg-white/95 dark:bg-[#0B121C]/95 backdrop-blur-md border border-[var(--border-subtle)]/40 shadow-xl flex items-center justify-between sm:justify-start gap-3">
+              <div className="absolute bottom-4 inset-x-4 sm:left-auto sm:right-4 p-2 sm:p-2.5 rounded-2xl bg-white/95 dark:bg-[#211A19]/95 backdrop-blur-md border border-[var(--border-subtle)]/40 shadow-xl flex items-center justify-between sm:justify-start gap-3">
                 <div className="hidden sm:block pl-2 pr-1">
                   <span className="font-heading text-xs font-bold text-[var(--text-main)] block">
                     Como Chegar
@@ -267,7 +267,7 @@ export function ContactSection() {
                   href={OFFICE_INFO.mapsDirectionsUrl}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="btn-pill bg-[var(--accent)] hover:bg-[var(--accent-hover)] hover:scale-105 text-white py-2.5 px-4 text-xs font-semibold gap-2 shadow-md inline-flex items-center justify-center w-full sm:w-auto transition-all cursor-pointer"
+                  className="btn-pill bg-[#C18F84] hover:bg-[#A8746A] hover:scale-105 text-white py-2.5 px-4 text-xs font-semibold gap-2 shadow-md inline-flex items-center justify-center w-full sm:w-auto transition-all cursor-pointer"
                 >
                   <Navigation className="w-3.5 h-3.5 fill-white text-white" />
                   <span>Traçar Rota no Google Maps</span>

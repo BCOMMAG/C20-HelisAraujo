@@ -98,10 +98,10 @@ export function InstitutionalPillars() {
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="relative flex items-center justify-between pb-4 border-b border-[var(--border-subtle)]/25 mb-8 text-[var(--text-muted)]">
-          {/* Linha Bronze Nobre desenhada pelo scroll */}
+          {/* Linha Rosé Gold Cobre desenhada pelo scroll */}
           <div
             ref={lineRef}
-            className="absolute -bottom-[1px] left-0 right-0 h-[2px] bg-gradient-to-r from-[#0F1E36] via-[#A86E61] to-[#F8F9FA] dark:from-[#0B121C] dark:via-[#B87B6E] dark:to-[#F1F5F9] will-change-transform"
+            className="absolute -bottom-[1px] left-0 right-0 h-[2px] bg-gradient-to-r from-[#211A19] via-[#C18F84] to-[#FAF6F0] dark:from-[#211A19] dark:via-[#C18F84] dark:to-[#EBE5DF] will-change-transform"
           />
           <div className="flex items-center gap-2.5">
             <Award className="w-4 h-4 text-[var(--accent)]" />

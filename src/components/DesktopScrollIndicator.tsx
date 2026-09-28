@@ -78,11 +78,11 @@ export function DesktopScrollIndicator() {
               <div
                 className={`absolute right-7 py-1 px-2.5 rounded-lg text-xs font-heading font-semibold whitespace-nowrap transition-all duration-300 pointer-events-none border ${
                   isHovered || (isActive && hoveredSection === null)
-                    ? "opacity-100 translate-x-0 bg-[#0B121C]/95 text-white border-[#A86E61]/60 shadow-md scale-100"
+                    ? "opacity-100 translate-x-0 bg-[#211A19]/95 text-white border-[#C18F84]/60 shadow-md scale-100"
                     : "opacity-0 translate-x-2 border-transparent scale-95"
                 }`}
               >
-                <span className="text-[#A86E61] mr-1.5 font-bold">{sec.num}</span>
+                <span className="text-[#C18F84] mr-1.5 font-bold">{sec.num}</span>
                 <span>{sec.name}</span>
               </div>
 
@@ -96,10 +96,10 @@ export function DesktopScrollIndicator() {
                 <span
                   className={`rounded-full transition-all duration-300 ${
                     isActive
-                      ? "w-3 h-3 bg-[#A86E61] ring-4 ring-[#A86E61]/40 shadow-[0_0_12px_rgba(168,110,97,0.85)] scale-110"
+                      ? "w-3 h-3 bg-[#C18F84] ring-4 ring-[#C18F84]/40 shadow-[0_0_12px_rgba(193,143,132,0.9)] scale-110"
                       : isHovered
-                      ? "w-2.5 h-2.5 bg-[#A86E61] scale-105"
-                      : "w-2 h-2 bg-white/40 dark:bg-white/30 hover:bg-[#A86E61]"
+                      ? "w-2.5 h-2.5 bg-[#C18F84] scale-105"
+                      : "w-2 h-2 bg-white/40 dark:bg-white/30 hover:bg-[#C18F84]"
                   }`}
                 />
               </a>
