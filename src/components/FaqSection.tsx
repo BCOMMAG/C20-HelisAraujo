@@ -143,7 +143,7 @@ export function FaqSection() {
                 onClick={() => setActiveTab(cat.id)}
                 className={`px-5 py-2.5 rounded-full font-heading text-xs uppercase tracking-wider font-semibold transition-all duration-300 cursor-pointer ${
                   isActive
-                    ? "bg-[#C18F84] text-white border-2 border-[#FAF6F0]/50 shadow-[0_2px_12px_rgba(193,143,132,0.35)] scale-105"
+                    ? "bg-[var(--accent)] text-white border-2 border-white/40 shadow-[0_2px_12px_rgba(168,110,97,0.35)] scale-105"
                     : "bg-[var(--bg-secondary)]/80 text-[var(--text-muted)] border border-transparent hover:text-[var(--text-main)] hover:bg-[var(--bg-secondary)]"
                 }`}
               >
@@ -175,8 +175,8 @@ export function FaqSection() {
                   <div
                     className={`w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0 transition-all duration-300 ${
                       isOpen
-                        ? "bg-[#C18F84] text-white rotate-180"
-                        : "bg-[var(--bg-secondary)] text-[var(--accent)] group-hover:bg-[#C18F84]/15"
+                        ? "bg-[var(--accent)] text-white rotate-180"
+                        : "bg-[var(--bg-secondary)] text-[var(--accent)] group-hover:bg-[var(--accent)]/15"
                     }`}
                   >
                     <ChevronDown className="w-4 h-4" />
@@ -200,7 +200,7 @@ export function FaqSection() {
                         )}`}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-[#C18F84] hover:bg-[#A8746A] text-white border border-[#FAF6F0]/50 text-xs font-heading font-semibold shadow-xs hover-lift transition-all cursor-pointer"
+                        className="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-[var(--accent)] hover:bg-[var(--accent-hover)] text-white border border-[var(--bg-primary)]/50 text-xs font-heading font-semibold shadow-xs hover-lift transition-all cursor-pointer"
                       >
                         <WhatsAppIcon className="w-3.5 h-3.5 fill-white" />
                         <span>Saiba mais no WhatsApp</span>
@@ -232,7 +232,7 @@ export function FaqSection() {
             href={OFFICE_INFO.whatsappUrl}
             target="_blank"
             rel="noopener noreferrer"
-            className="btn-pill bg-[#C18F84] hover:bg-[#A8746A] text-white border-2 border-[#FAF6F0]/40 gap-2 shadow-[0_4px_20px_rgba(193,143,132,0.35)] text-xs sm:text-sm font-semibold inline-flex items-center cursor-pointer"
+            className="btn-pill bg-[var(--accent)] hover:bg-[var(--accent-hover)] text-white border-2 border-[var(--bg-primary)]/40 gap-2 shadow-[0_4px_20px_rgba(168,110,97,0.35)] text-xs sm:text-sm font-semibold inline-flex items-center cursor-pointer"
           >
             <WhatsAppIcon className="w-4 h-4 fill-white" />
             <span>Retirar dúvidas com Advogada no WhatsApp</span>

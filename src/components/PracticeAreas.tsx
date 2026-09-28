@@ -208,7 +208,7 @@ export function PracticeAreas() {
                     )}`}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex items-center gap-2 text-xs font-heading font-bold text-[var(--accent)] hover:text-[#A8746A] transition-colors group cursor-pointer"
+                    className="inline-flex items-center gap-2 text-xs font-heading font-bold text-[var(--accent)] hover:text-[var(--accent-hover)] transition-colors group cursor-pointer"
                   >
                     <span>Consultar sobre {area.title.split("&")[0].trim()}</span>
                     <ArrowUpRight className="w-4 h-4 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
@@ -270,7 +270,7 @@ export function PracticeAreas() {
                     )}`}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex items-center gap-2 text-xs font-heading font-bold text-[var(--accent)] hover:text-[#A8746A] transition-colors group cursor-pointer"
+                    className="inline-flex items-center gap-2 text-xs font-heading font-bold text-[var(--accent)] hover:text-[var(--accent-hover)] transition-colors group cursor-pointer"
                   >
                     <span>Consultar sobre {area.title.split("&")[0].trim()}</span>
                     <ArrowUpRight className="w-4 h-4 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
@@ -355,7 +355,7 @@ export function PracticeAreas() {
                         )}`}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="w-full btn-pill bg-[#C18F84] hover:bg-[#A8746A] text-white py-2.5 px-4 text-xs font-semibold gap-2 shadow-sm inline-flex items-center justify-center cursor-pointer"
+                        className="w-full btn-pill bg-[var(--accent)] hover:bg-[var(--accent-hover)] text-white py-2.5 px-4 text-xs font-semibold gap-2 shadow-sm inline-flex items-center justify-center cursor-pointer"
                       >
                         <WhatsAppIcon className="w-3.5 h-3.5 fill-white" />
                         <span>Falar com Advogada sobre este tema</span>

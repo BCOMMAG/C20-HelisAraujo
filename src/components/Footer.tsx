@@ -12,7 +12,7 @@ export function Footer() {
   };
 
   return (
-    <footer className="w-full bg-[#211A19] text-white border-t border-[#C18F84]/20 pt-16 pb-8">
+    <footer className="w-full bg-[#0B121C] text-white border-t border-[#A86E61]/25 pt-16 pb-8">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Topo do Footer */}
@@ -46,54 +46,54 @@ export function Footer() {
               Atuação especializada, ética e humanizada no Direito das Famílias e Alienação Parental. Atendimento presencial na sede em Curitiba/PR e suporte jurídico online em todo o Brasil e exterior.
             </p>
 
-            <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full border border-[#C18F84]/30 bg-[#2B2321] text-xs font-heading text-[#FAF6F0]">
-              <ShieldCheck className="w-3.5 h-3.5 text-[#C18F84]" />
+            <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full border border-[#A86E61]/35 bg-[#0F1E36] text-xs font-heading text-[#F8F9FA]">
+              <ShieldCheck className="w-3.5 h-3.5 text-[#A86E61]" />
               <span>{OFFICE_INFO.lawyer} • Advocacia desde 2012</span>
             </div>
           </div>
 
           {/* Coluna 2: Navegação Rápida (3 colunas) */}
           <div className="lg:col-span-3 space-y-3">
-            <h4 className="font-heading text-xs uppercase tracking-widest text-[#C18F84] font-bold">
+            <h4 className="font-heading text-xs uppercase tracking-widest text-[#A86E61] font-bold">
               Navegação
             </h4>
             <ul className="space-y-2 text-xs sm:text-sm font-heading text-gray-300">
               <li>
-                <Link href="#inicio" className="hover:text-[#C18F84] transition-colors">Início</Link>
+                <Link href="#inicio" className="hover:text-[#A86E61] transition-colors">Início</Link>
               </li>
               <li>
-                <Link href="#sobre" className="hover:text-[#C18F84] transition-colors">A Advogada</Link>
+                <Link href="#sobre" className="hover:text-[#A86E61] transition-colors">A Advogada</Link>
               </li>
               <li>
-                <Link href="#pilares" className="hover:text-[#C18F84] transition-colors">Pilares Institucionais</Link>
+                <Link href="#pilares" className="hover:text-[#A86E61] transition-colors">Pilares Institucionais</Link>
               </li>
               <li>
-                <Link href="#atuacao" className="hover:text-[#C18F84] transition-colors">Áreas de Atuação</Link>
+                <Link href="#atuacao" className="hover:text-[#A86E61] transition-colors">Áreas de Atuação</Link>
               </li>
               <li>
-                <Link href="#como-atuamos" className="hover:text-[#C18F84] transition-colors">Metodologia de Atendimento</Link>
+                <Link href="#como-atuamos" className="hover:text-[#A86E61] transition-colors">Metodologia de Atendimento</Link>
               </li>
               <li>
-                <Link href="#avaliacoes" className="hover:text-[#C18F84] transition-colors">O Que Dizem os Clientes</Link>
+                <Link href="#avaliacoes" className="hover:text-[#A86E61] transition-colors">O Que Dizem os Clientes</Link>
               </li>
               <li>
-                <Link href="#educativo" className="hover:text-[#C18F84] transition-colors">Conteúdo Informativo</Link>
+                <Link href="#educativo" className="hover:text-[#A86E61] transition-colors">Conteúdo Informativo</Link>
               </li>
               <li>
-                <Link href="#faq" className="hover:text-[#C18F84] transition-colors">Dúvidas Frequentes</Link>
+                <Link href="#faq" className="hover:text-[#A86E61] transition-colors">Dúvidas Frequentes</Link>
               </li>
               <li>
-                <Link href="#contato" className="hover:text-[#C18F84] transition-colors">Contato & Sede</Link>
+                <Link href="#contato" className="hover:text-[#A86E61] transition-colors">Contato & Sede</Link>
               </li>
               <li>
-                <Link href="/links" className="text-[#C18F84] hover:text-white hover:underline font-semibold">Central de Links (/links)</Link>
+                <Link href="/links" className="text-[#A86E61] hover:text-white hover:underline font-semibold">Central de Links (/links)</Link>
               </li>
             </ul>
           </div>
 
           {/* Coluna 3: Contatos e Redes (4 colunas) */}
           <div className="lg:col-span-4 space-y-3">
-            <h4 className="font-heading text-xs uppercase tracking-widest text-[#C18F84] font-bold">
+            <h4 className="font-heading text-xs uppercase tracking-widest text-[#A86E61] font-bold">
               Canais Oficiais
             </h4>
             <div className="space-y-1.5 text-xs sm:text-sm font-body text-gray-300">
@@ -109,7 +109,7 @@ export function Footer() {
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Instagram da Dra. Helis Kawamura Araújo"
-                className="w-9 h-9 rounded-xl bg-white/10 hover:bg-[#C18F84] hover:border hover:border-[#FAF6F0]/40 flex items-center justify-center text-white transition-colors cursor-pointer"
+                className="w-9 h-9 rounded-xl bg-white/10 hover:bg-[#A86E61] hover:border hover:border-[#F8F9FA]/40 flex items-center justify-center text-white transition-colors cursor-pointer"
               >
                 <InstagramIcon className="w-4 h-4" />
               </a>
@@ -118,7 +118,7 @@ export function Footer() {
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Facebook da Dra. Helis Kawamura Araújo"
-                className="w-9 h-9 rounded-xl bg-white/10 hover:bg-[#C18F84] hover:border hover:border-[#FAF6F0]/40 flex items-center justify-center text-white transition-colors cursor-pointer"
+                className="w-9 h-9 rounded-xl bg-white/10 hover:bg-[#A86E61] hover:border hover:border-[#F8F9FA]/40 flex items-center justify-center text-white transition-colors cursor-pointer"
               >
                 <FacebookIcon className="w-4 h-4" />
               </a>
@@ -150,7 +150,7 @@ export function Footer() {
           <button
             type="button"
             onClick={scrollToTop}
-            className="flex items-center gap-2 text-xs font-heading font-semibold text-[#C18F84] hover:text-white transition-colors cursor-pointer"
+            className="flex items-center gap-2 text-xs font-heading font-semibold text-[#A86E61] hover:text-white transition-colors cursor-pointer"
             aria-label="Voltar ao topo da página"
           >
             <span>Voltar ao topo</span>

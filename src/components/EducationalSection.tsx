@@ -222,7 +222,7 @@ export function EducationalSection() {
                   href={getWhatsAppMessageUrl(activeTopic.title)}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="btn-pill bg-[#C18F84] hover:bg-[#A8746A] text-white py-2.5 px-5 text-xs font-semibold gap-2 shadow-sm inline-flex items-center cursor-pointer flex-shrink-0"
+                  className="btn-pill bg-[var(--accent)] hover:bg-[var(--accent-hover)] text-white py-2.5 px-5 text-xs font-semibold gap-2 shadow-sm inline-flex items-center cursor-pointer flex-shrink-0"
                 >
                   <WhatsAppIcon className="w-3.5 h-3.5 fill-white" />
                   <span>Retirar dúvidas com Advogada</span>
@@ -295,7 +295,7 @@ export function EducationalSection() {
                         href={getWhatsAppMessageUrl(topic.title)}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="w-full btn-pill bg-[#C18F84] hover:bg-[#A8746A] text-white py-2.5 px-4 text-xs font-semibold gap-2 shadow-sm inline-flex items-center justify-center cursor-pointer"
+                        className="w-full btn-pill bg-[var(--accent)] hover:bg-[var(--accent-hover)] text-white py-2.5 px-4 text-xs font-semibold gap-2 shadow-sm inline-flex items-center justify-center cursor-pointer"
                       >
                         <WhatsAppIcon className="w-3.5 h-3.5 fill-white" />
                         <span>Esclarecer Dúvida no WhatsApp</span>

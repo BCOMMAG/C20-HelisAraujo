@@ -21,7 +21,7 @@ export function GeometricLines({ variant, className = "" }: GeometricLinesProps)
     >
       {/* 1. PILARES: Arcos circulares concêntricos sutis e nós de apoio */}
       {variant === "pillars" && (
-        <div className="absolute inset-0 text-[#C18F84]/[0.12] dark:text-[#7A6F6C]/[0.15] [mask-image:radial-gradient(ellipse_at_center,black_50%,transparent_95%)]">
+        <div className="absolute inset-0 text-[#A86E61]/[0.12] dark:text-[#94A3B8]/[0.15] [mask-image:radial-gradient(ellipse_at_center,black_50%,transparent_95%)]">
           <svg
             className="w-full h-full"
             xmlns="http://www.w3.org/2000/svg"
@@ -33,15 +33,15 @@ export function GeometricLines({ variant, className = "" }: GeometricLinesProps)
             <circle cx="80%" cy="50%" r="260" fill="none" stroke="currentColor" strokeWidth="1" strokeDasharray="4 4" />
             <circle cx="80%" cy="50%" r="440" fill="none" stroke="currentColor" strokeWidth="0.8" />
             {/* Nós discretos */}
-            <circle cx="20%" cy="50%" r="3" className="fill-[#C18F84]/[0.3] dark:fill-[#7A6F6C]/[0.3]" />
-            <circle cx="80%" cy="50%" r="3" className="fill-[#C18F84]/[0.3] dark:fill-[#7A6F6C]/[0.3]" />
+            <circle cx="20%" cy="50%" r="3" className="fill-[#A86E61]/[0.3] dark:fill-[#94A3B8]/[0.3]" />
+            <circle cx="80%" cy="50%" r="3" className="fill-[#A86E61]/[0.3] dark:fill-[#94A3B8]/[0.3]" />
           </svg>
         </div>
       )}
 
       {/* 2. SOBRE A ADVOGADA: Curvas orgânicas fluidas e arcos que envolvem a foto */}
       {variant === "about" && (
-        <div className="absolute inset-0 text-[#C18F84]/[0.13] dark:text-[#7A6F6C]/[0.15] [mask-image:radial-gradient(circle_at_65%_45%,black_45%,transparent_90%)]">
+        <div className="absolute inset-0 text-[#A86E61]/[0.13] dark:text-[#94A3B8]/[0.15] [mask-image:radial-gradient(circle_at_65%_45%,black_45%,transparent_90%)]">
           <svg
             className="w-full h-full"
             xmlns="http://www.w3.org/2000/svg"
@@ -71,7 +71,7 @@ export function GeometricLines({ variant, className = "" }: GeometricLinesProps)
 
       {/* 3. ÁREAS DE ATUAÇÃO: Malhas de anéis e curvas de proteção familiar */}
       {variant === "areas" && (
-        <div className="absolute inset-0 text-[#C18F84]/[0.12] dark:text-[#7A6F6C]/[0.15] [mask-image:radial-gradient(ellipse_at_top,black_50%,transparent_90%)]">
+        <div className="absolute inset-0 text-[#A86E61]/[0.12] dark:text-[#94A3B8]/[0.15] [mask-image:radial-gradient(ellipse_at_top,black_50%,transparent_90%)]">
           <svg
             className="w-full h-full"
             xmlns="http://www.w3.org/2000/svg"
@@ -94,7 +94,7 @@ export function GeometricLines({ variant, className = "" }: GeometricLinesProps)
 
       {/* 4. METODOLOGIA: Trilha de arcos conectores sequenciais */}
       {variant === "methodology" && (
-        <div className="absolute inset-0 text-[#C18F84]/[0.12] dark:text-[#7A6F6C]/[0.15] [mask-image:radial-gradient(ellipse_at_center,black_55%,transparent_95%)]">
+        <div className="absolute inset-0 text-[#A86E61]/[0.12] dark:text-[#94A3B8]/[0.15] [mask-image:radial-gradient(ellipse_at_center,black_55%,transparent_95%)]">
           <svg
             className="w-full h-full"
             xmlns="http://www.w3.org/2000/svg"
@@ -115,7 +115,7 @@ export function GeometricLines({ variant, className = "" }: GeometricLinesProps)
 
       {/* 5. DEPOIMENTOS: Arcos suaves de acolhimento social */}
       {variant === "reviews" && (
-        <div className="absolute inset-0 text-[#C18F84]/[0.11] dark:text-[#7A6F6C]/[0.14] [mask-image:radial-gradient(ellipse_at_center,black_50%,transparent_90%)]">
+        <div className="absolute inset-0 text-[#A86E61]/[0.11] dark:text-[#94A3B8]/[0.14] [mask-image:radial-gradient(ellipse_at_center,black_50%,transparent_90%)]">
           <svg
             className="w-full h-full"
             xmlns="http://www.w3.org/2000/svg"
@@ -130,7 +130,7 @@ export function GeometricLines({ variant, className = "" }: GeometricLinesProps)
 
       {/* 6. CONTEÚDO EDUCATIVO: Arcos editoriais de pesquisa e saber */}
       {variant === "educational" && (
-        <div className="absolute inset-0 text-[#C18F84]/[0.12] dark:text-[#7A6F6C]/[0.15] [mask-image:radial-gradient(circle_at_30%_30%,black_50%,transparent_95%)]">
+        <div className="absolute inset-0 text-[#A86E61]/[0.12] dark:text-[#94A3B8]/[0.15] [mask-image:radial-gradient(circle_at_30%_30%,black_50%,transparent_95%)]">
           <svg
             className="w-full h-full"
             xmlns="http://www.w3.org/2000/svg"
@@ -150,7 +150,7 @@ export function GeometricLines({ variant, className = "" }: GeometricLinesProps)
 
       {/* 7. FAQ: Arcos concêntricos de estabilidade e foco nas respostas */}
       {variant === "faq" && (
-        <div className="absolute inset-0 text-[#C18F84]/[0.12] dark:text-[#7A6F6C]/[0.15] [mask-image:radial-gradient(ellipse_at_center,black_60%,transparent_95%)]">
+        <div className="absolute inset-0 text-[#A86E61]/[0.12] dark:text-[#94A3B8]/[0.15] [mask-image:radial-gradient(ellipse_at_center,black_60%,transparent_95%)]">
           <svg
             className="w-full h-full"
             xmlns="http://www.w3.org/2000/svg"
@@ -165,7 +165,7 @@ export function GeometricLines({ variant, className = "" }: GeometricLinesProps)
 
       {/* 8. CONTATO: Arcos convergentes de rota e acolhimento presencial */}
       {variant === "contact" && (
-        <div className="absolute inset-0 text-[#C18F84]/[0.13] dark:text-[#7A6F6C]/[0.15] [mask-image:radial-gradient(circle_at_50%_50%,black_55%,transparent_95%)]">
+        <div className="absolute inset-0 text-[#A86E61]/[0.13] dark:text-[#94A3B8]/[0.15] [mask-image:radial-gradient(circle_at_50%_50%,black_55%,transparent_95%)]">
           <svg
             className="w-full h-full"
             xmlns="http://www.w3.org/2000/svg"
